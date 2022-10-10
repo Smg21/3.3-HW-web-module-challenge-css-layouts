@@ -15,6 +15,12 @@ footer{
     width: 100px;
     height:50px;
     text-size-adjust: 600px;
+    
+}
+
+.Contact-Button:hover {
+width:115px;
+height: 70px;
 }
 
 .topSection{
@@ -36,10 +42,66 @@ footer{
 display:flex;
 justify-content: space-evenly;
 flex-direction: row;
-padding: 14px;
+padding: 20px;
 }
+
 
 /**For mid-section image + image-text**/
 .port{
     text-align:center;
+  /**padding: 20px;**/  
 }
+
+/**BUTTONSSS**/
+
+button{
+background-color: white;
+color:black;
+border: black solid 1 px;
+padding: 5px 10px;
+}
+
+button:hover {
+   background-color: black; 
+   color:white;
+   border:white solid 1px;
+    
+    /**Padding makes the button popout**/
+padding: 10px 20px;
+
+}
+
+/**Only Select A's Inside of Buttons**/
+button a {
+text-decoration: none;
+color:inherit;
+}
+
+
+/**FORM ON CONTACT PAGE**/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/**Button on Form on Contact Page**/
+input[type=submit] {
+    background-color: white;
+    color:black;
+    border: black solid 1 px;
+    padding: 5px 10px;
+    } 
+
+    input[type=submit]:hover {
+        background-color: black; 
+   color:white;
+   border:white solid 1px;
+   padding: 10px 20px;
+    }

@@ -1,11 +1,50 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
+
+    
 </head>
 <body>
-    <h1> CONTACT </h1>
+    <!--Top Section-->
+    <header>
+        <nav>
+            <button><a href = "index.html">HOME</a></button>
+            <button><a href = "about.html">ABOUT</a></button>
+            <button><a href = "contact.html">CONTACT</a></button>
+            <button><a href = "projects.html">PROJECT</a></button>
+        </nav>
+        <h1> Contact Me</h1>
+    </header>
+
+    <!--CONTACT ME FORM-->
+<div class = "container">
+    <form action="mailto:sbrngehrke@gmail.com" method="GET"> <!--action_page.php-->
+        <!--NAME-->
+        <label for ="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+        <!--EMAIL-->
+        <label for ="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email..." required>
+        <!--SUBJECT-->
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."style="height:200px" required ></textarea>
+    <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright <a href = "http://127.0.0.1:5500/index.html"> Sabrina Gehrke </a> 2022 </p>
+    </footer>
 </body>
 </html>
