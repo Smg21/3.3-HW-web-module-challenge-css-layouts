@@ -1,1 +1,45 @@
-/* Add CSS styling here */
+header {
+    background-color: lightgrey;
+    padding:20px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding:20px;
+}
+
+/**Making Button Bigger**/
+.Contact-Button{
+    width: 100px;
+    height:50px;
+    text-size-adjust: 600px;
+}
+
+.topSection{
+    /**Using the Flex to Change the Direction to horizontal**/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+/**Name + My Projects Button + Paragraph EDIT THE PARAGRAPH**/
+.description{
+    padding:14px;
+    width: 100%;
+}
+
+/**Mid-Section**/
+.row{
+display:flex;
+justify-content: space-evenly;
+flex-direction: row;
+padding: 14px;
+}
+
+/**For mid-section image + image-text**/
+.port{
+    text-align:center;
+}
