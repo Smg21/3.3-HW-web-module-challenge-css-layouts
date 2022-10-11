@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+
+
 header {
     background-color: lightgrey;
     padding:20px;
@@ -43,6 +51,7 @@ display:flex;
 justify-content: space-evenly;
 flex-direction: row;
 padding: 20px;
+
 }
 
 
@@ -104,4 +113,50 @@ input[type=submit] {
    color:white;
    border:white solid 1px;
    padding: 10px 20px;
+    }
+
+    @media(max-width:800px){
+        header{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width:100%;
+
+
+        }
+        nav{
+            display:flex;
+            flex-direction:row;
+            width:100%;
+
+        }
+        button{
+            width:30%;
+            text-align:center;
+            margin:0.5% 0;
+        }
+        .topSection{
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .topsection div{
+            width:90%;
+        }
+
+        .row{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .row div{
+            width:40%;
+            margin:4% 0;
+        }
+       
+        
+
+    }
+    @media(max-width:500px){
+
     }
